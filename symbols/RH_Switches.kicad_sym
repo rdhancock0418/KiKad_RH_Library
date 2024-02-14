@@ -78,6 +78,9 @@
     (property "Datasheet" "" (at 0 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "PartNo." "i.e. 2223-TS02-66-70-BK-160-LCR-D-ND" (at 6.0325 -2.2225 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "Pushbutton_NO_0_1"
       (polyline
         (pts

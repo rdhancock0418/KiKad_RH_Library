@@ -170,6 +170,9 @@
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "PartNo." "i.e. 3147-B1911USD-20D000114U1930CT-ND" (at 3.81 -5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "LED_0_1"
       (polyline
         (pts
