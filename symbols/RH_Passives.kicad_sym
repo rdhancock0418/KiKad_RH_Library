@@ -158,7 +158,7 @@
     )
   )
   (symbol "LED" (pin_numbers hide) (in_bom yes) (on_board yes)
-    (property "Reference" "D" (at 5.08 -2.54 0)
+    (property "Reference" "LED" (at 5.08 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "" (at 0 0 0)
