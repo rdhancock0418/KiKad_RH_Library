@@ -1,0 +1,140 @@
+(footprint "B2B-XH-A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.9 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "715893d4-1f89-47b6-8639-c8bb2090bf9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "B2B-XH-A"
+		(at 1.2 4.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d78b2b8-fc56-4175-b189-01c22c296095")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 1.2 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f64e9b0-4018-46a7-869d-3c3fcbe85068")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1.2 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a345711-f77d-4cbc-a89c-e41181b848e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1.2 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8b93655-e8e6-46b7-87c4-aa0c84db04a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.45 -2.35)
+		(end 4.95 -2.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "091d8441-58b2-43d2-87f2-13dbe2cae3dd")
+	)
+	(fp_line
+		(start -2.45 3.4)
+		(end -2.45 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "148bf68b-84bb-4084-ac77-d0dd432614d5")
+	)
+	(fp_line
+		(start -2.45 3.4)
+		(end 4.95 3.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "546ebd67-b1c7-4a16-ba4e-98d9f33c72b2")
+	)
+	(fp_line
+		(start 4.95 3.4)
+		(end 4.95 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0258c754-9e3b-4d05-a2cd-1b480106eb21")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.2 6.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5670cc6-f5f1-47b4-93b5-7e30f9ada144")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "68db3563-1731-4433-add6-e431c8ae8b80")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "48f47a31-9514-4678-9aac-c3ef6c1393e0")
+	)
+)
